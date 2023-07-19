@@ -3,6 +3,7 @@
 # Ignore punctuation and assume sen will not be empty.
 
 
+import string
 def LongestWord(sen):
   max_word = ""
   for word in sen.split(" "):
